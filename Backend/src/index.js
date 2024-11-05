@@ -3,6 +3,7 @@ const connectionDB = require('./config/connection.db')
 const router = require('./routes/user.route')
 const app= express()
 // middleware
+
 app.use(express.json())
 
 require('dotenv').config()
